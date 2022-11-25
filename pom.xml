@@ -449,4 +449,12 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>statsmind-parent</name>
+            <url>https://maven.pkg.github.com/phanatic</url>
+        </repository>
+    </distributionManagement>
 </project>
